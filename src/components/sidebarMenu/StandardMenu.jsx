@@ -126,7 +126,7 @@ function StandardMenu() {
           </span>{" "}
           인기 키워드
         </h3>
-        <dv className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2">
           {["#사워도우", "#비건", "#밀프렙", "#에어프라이어"].map((tag) => (
             <span
               key={tag}
@@ -135,7 +135,7 @@ function StandardMenu() {
               {tag}
             </span>
           ))}
-        </dv>
+        </div>
       </div>
     </>
   );
